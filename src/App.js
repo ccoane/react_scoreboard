@@ -2,7 +2,7 @@ import React, { useState, useEffect  } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const API = 'http://nerf-data-api-dfw.herokuapp.com/koth/status/';
+const API = 'https://nerf-data-api-dfw.herokuapp.com/koth/status/';
 const DEFAULT_QUERY = 'redux';
 
 var interval = null;
